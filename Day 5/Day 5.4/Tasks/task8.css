@@ -1,0 +1,21 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 2rem;
+}
+
+form,
+li {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  margin: 0.75rem 0;
+}
+
+li span {
+  flex: 1;
+}
+
+.completed {
+  color: #555;
+  text-decoration: line-through;
+}
