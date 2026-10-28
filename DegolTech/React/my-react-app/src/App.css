@@ -1,0 +1,27 @@
+#root {
+  min-height: 100vh;
+}
+
+.learning-page {
+  width: min(900px, calc(100% - 40px));
+  margin: 0 auto;
+  padding: 64px 0;
+}
+
+.page-header { margin-bottom: 32px; }
+.page-header h1 { margin: 8px 0 12px; font-size: clamp(2rem, 5vw, 3.25rem); letter-spacing: -0.04em; }
+.page-header > p:last-child, .exercise-card > p:not(.eyebrow), .topic-card p { color: #536174; line-height: 1.65; }
+.eyebrow { margin: 0; color: #3157c8; font-size: 0.78rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; }
+.exercise-card { margin-top: 20px; padding: clamp(22px, 5vw, 36px); border: 1px solid #dfe5ef; border-radius: 18px; background: #fff; box-shadow: 0 12px 32px rgb(28 44 74 / 6%); }
+.exercise-card h2 { margin: 10px 0 18px; font-size: 1.55rem; }
+.exercise-card h3 { margin: 22px 0 10px; font-size: 1rem; }
+.exercise-card ul { display: flex; flex-wrap: wrap; gap: 10px; margin: 0; padding: 0; list-style: none; }
+.exercise-card li { padding: 8px 13px; border-radius: 999px; background: #eef2ff; color: #2948a5; font-weight: 600; }
+.topic-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 14px; }
+.topic-card { padding: 18px; border-radius: 12px; background: #f5f7fb; }
+.topic-card h3 { margin: 0 0 8px; }
+.topic-card p { margin: 0; font-size: 0.94rem; }
+
+@media (max-width: 600px) {
+  .learning-page { padding: 40px 0; }
+}
