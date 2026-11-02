@@ -1,5 +1,6 @@
 import Day1_1 from './Day1_1.jsx';
 import Day1_2 from './Day1_2.jsx';
+import Day1_3 from './day1_3.jsx';
 import './App.css';
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       </header>
       <Day1_1 />
       <Day1_2 />
+      <Day1_3 />
     </main>
   );
 }
